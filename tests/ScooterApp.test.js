@@ -19,3 +19,11 @@ describe('registerUser method tests', () => {
 // rent scooter
 
 // dock scooter
+describe('dock scooter method test', () => {
+  test('log scooter is docked ', ()=>{
+  })
+  test('throws error if no station exists', ()=>{
+  })
+  test('throws error if scooter is already at the station', ()=>{
+  })
+})

@@ -1,0 +1,33 @@
+{
+  "name": "scooter-project-solution",
+  "version": "1.0.0",
+  "description": "An Electric Scooter Hire app system, created using UML, OOP, JS Classes and TDD",
+  "main": "Application.js",
+  "scripts": {
+    "test": "jest --watch-all --verbose",
+    "test:coverage": "jest --verbose --collect-coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiverseLearningProducts/scooter-project-solution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MultiverseLearningProducts/scooter-project-solution/issues"
+  },
+  "homepage": "https://github.com/MultiverseLearningProducts/scooter-project-solution#readme",
+  "dependencies": {
+    "jest": "27.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
